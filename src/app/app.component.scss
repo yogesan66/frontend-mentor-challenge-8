@@ -1,0 +1,16 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    @apply text-grey500;
+}
+
+.badge {
+    @apply flex justify-center items-center hover:bg-orange500 hover:text-grey950 cursor-pointer rounded-full font-bold h-12 w-12;
+}
+
+.card {
+    @apply bg-grey900 rounded-3xl flex flex-col p-8 gap-3 w-[25.5rem];
+}
